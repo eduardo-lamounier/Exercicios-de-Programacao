@@ -14,7 +14,7 @@ class Solution:
             '}' : '{'
         }
 
-        stack = [] # Armazena os parênteses para serem fechados
+        stack = [] # Armazena os parênteses para serem fechados posteriormente
 
         for ch in s:
             if not ch in brackets:
@@ -26,7 +26,8 @@ class Solution:
             # Caso o caractere seja o fechamento de um parêntese:
             if not stack or stack.pop() != brackets[ch]:
                 # Fechamento de um parêntese que não foi aberto ou fechamento 
-                # do parêntese errado, string inválida:
+                # do parêntese errado, ou seja, string é inválida:
                 return False
         
-        return not stack # Se restarem parênteses não fechados, string inválida
+        return not stack # Se restarem parênteses não fechados, string é
+                         # inválida
