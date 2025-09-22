@@ -4,10 +4,9 @@ Minhas resoluções de problemas do LeetCode, NepsAcademy/OBI, Hacker Rank, e ou
 
 ## LeetCode: Exercícios por Tópicos
 
-- **Linked lists**:
-21
+- **Linked lists**: 21, 141
 
-- **Hash Table:** 1, 3, 347
+- **Hash Table:** 1, 3, 141, 347
 
 - **Heap:** 347
 
@@ -18,6 +17,8 @@ Minhas resoluções de problemas do LeetCode, NepsAcademy/OBI, Hacker Rank, e ou
 - **String:** 3, 20
 
 - **Sliding Window:** 3
+
+- **Two Pointers:** 141
 
 - **Stack:** 20
 
