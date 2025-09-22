@@ -38,6 +38,6 @@ class Solution {
                 curr_node = curr_node->next;
             }
 
-            return false; // Se a linked list teve um fimn não há ciclos
+            return false; // Se a linked list teve um fim não há ciclos
         }
 };
